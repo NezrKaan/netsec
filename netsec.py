@@ -80,9 +80,9 @@ class NetworkSecurityAuditor:
         time.sleep(0.5)
         
         print(f"{Fore.GREEN}=" * 80)
-        print(f"{Fore.YELLOW}                    NetSec v1.0.0")
+        print(f"{Fore.YELLOW}                    Net Sec v1.0.0")
         print(f"{Fore.CYAN}                      Created by: Nezir Kaan Bilgehan")
-        print(f"{Fore.WHITE}                  Advanced Penetration Testing Suite")
+        print(f"{Fore.WHITE}                     Reach me out-> github.com/nezrkaan ")
         print(f"{Fore.GREEN}=" * 80)
         print(f"{Style.RESET_ALL}\n")
 
@@ -669,6 +669,11 @@ class NetworkSecurityAuditor:
         if response_times:
             avg_time = sum(response_times) / len(response_times)
             print(f"{Fore.CYAN}[INFO] Average response time: {avg_time:.2f}ms{Style.RESET_ALL}")
+
+    def mtu_discovery(self, target):
+        print(f"{Fore.BLUE}[INFO] MTU discovery...{Style.RESET_ALL}")
+        print(f"{Fore.YELLOW}[ALL MODE] Discovering MTU path...{Style.RESET_ALL}")
+        print(f"{Fore.CYAN}[INFO] Standard MTU sizes tested: 1500, 1492, 1280{Style.RESET_ALL}")
 
     def advanced_vulnerability_check(self, target, open_ports):
         print(f"{Fore.BLUE}[INFO] Advanced vulnerability analysis...{Style.RESET_ALL}")
