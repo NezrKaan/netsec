@@ -8,7 +8,7 @@ A comprehensive network security audit tool designed for penetration testing and
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/netsec.git
+git clone https://github.com/nezrkaan/netsec.git
 cd netsec
 ```
 
