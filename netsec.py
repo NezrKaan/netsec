@@ -80,7 +80,7 @@ class NetworkSecurityAuditor:
         time.sleep(0.5)
         
         print(f"{Fore.GREEN}=" * 80)
-        print(f"{Fore.YELLOW}                    NETWORK SECURITY AUDIT TOOL v1.0.0")
+        print(f"{Fore.YELLOW}                    NetSec v1.0.0")
         print(f"{Fore.CYAN}                      Created by: Nezir Kaan Bilgehan")
         print(f"{Fore.WHITE}                  Advanced Penetration Testing Suite")
         print(f"{Fore.GREEN}=" * 80)
